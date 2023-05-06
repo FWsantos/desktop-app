@@ -6,6 +6,6 @@ Simple desktop application involving react + electron.
 
 > pnpm build
 
-## teste electron app
+## start electron app
 
-> pnpm electron .
+> pnpm start
