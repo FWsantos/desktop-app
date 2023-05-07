@@ -11,8 +11,8 @@ function createWindow() {
     },
   });
 
-  // win.loadFile(path.join(__dirname, "../dist/index.html"));
-  win.loadURL("http://localhost:5173/");
+  win.loadFile(path.join(__dirname, "../dist/index.html"));
+  // win.loadURL("http://localhost:5173/");
   // win.loadURL("http://tiktok.com");
 }
 
