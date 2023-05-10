@@ -1,9 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  background-image: url("public/back.jpeg");
-  background-size: contain;
-  background-attachment: fixed;
+body {
+  background-color: #23272f;
+  color: #94a3b8;
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #e2e8f0;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  letter-spacing: -0.025em;
 }
